@@ -56,5 +56,16 @@
     <!-- Start of bodyEnd -->
     
     <!-- End of bodyEnd -->
+    <script>
+  (function() {
+    const fullPath = window.location.pathname;
+    const alreadyHasHash = window.location.hash.startsWith("#/");
+    if (fullPath !== "/" && !alreadyHasHash) {
+      window.history.replaceState({}, "", "/#"+fullPath);
+      window.location.reload();
+    }
+  })();
+</script>
+
 </body>
 </html>
