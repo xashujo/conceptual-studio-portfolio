@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://conceptualstudio.framer.website/sitemap.xml
+Sitemap: https://conceptualstudio.co.uk/sitemap.xml
